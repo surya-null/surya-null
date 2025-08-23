@@ -1,0 +1,36 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Surya Sahu — S/4HANA Developer · AI/ML Enthusiast">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="80" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#g)"/>
+
+  <!-- soft glows -->
+  <circle cx="200" cy="260" r="180" fill="#0ea5e9" opacity="0.15" filter="url(#blur)"/>
+  <circle cx="1000" cy="60" r="160" fill="#a78bfa" opacity="0.18" filter="url(#blur)"/>
+
+  <!-- accent line -->
+  <rect x="80" y="200" width="340" height="6" fill="url(#accent)" rx="3"/>
+
+  <!-- text -->
+  <g fill="#e2e8f0" font-family="Segoe UI, system-ui, -apple-system, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial">
+    <text x="80" y="140" font-size="56" font-weight="700">Surya Sahu</text>
+    <text x="80" y="180" font-size="24" opacity="0.9">S/4HANA Developer · RAP/CAP · Azure · AI/ML Enthusiast</text>
+  </g>
+
+  <!-- subtle right accent -->
+  <g opacity="0.6">
+    <path d="M950,50 Q1100,120 1150,40" stroke="url(#accent)" stroke-width="2" fill="none"/>
+    <path d="M980,90 Q1120,160 1180,90" stroke="url(#accent)" stroke-width="2" fill="none" opacity="0.7"/>
+  </g>
+</svg>

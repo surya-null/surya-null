@@ -1,0 +1,24 @@
+name: Link Check
+on:
+  pull_request:
+  schedule:
+    - cron: "0 3 * * 1" # Runs every Monday at 03:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 🧪 Check links with Lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >
+            --verbose
+            --no-progress
+            --accept 200,206,429
+            --exclude-mail
+            --header "User-Agent: Mozilla/5.0"
+            .
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

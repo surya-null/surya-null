@@ -70,6 +70,10 @@ Focused on clean architecture, performance, and developer experience. Exploring 
 
 ---
 
+
+<img src="metrics.svg" alt="GitHub Metrics for surya-null" />
+
+
 ## 📊 Developer Footprint
 
 <!-- Auto-updated metrics (via .github/workflows/metrics.yml) -->

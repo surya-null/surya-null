@@ -108,14 +108,12 @@ Focused on clean architecture, performance, and developer experience. Exploring 
 ## 🎤 Talks & Certifications
 - Clean ABAP & RAP Patterns (internal lunch & learn) — *Slides repo coming soon*  
 - SAP Extension Suite (CAP) foundations — *learning path*  
-- Azure AI Studio basics — *hands-on prototypes*
-
 ---
 
 ## 📬 Contact
-- ✉️ Email: `your.email@domain.com` *(replace with your contact; obfuscated format recommended)*
-- 🔗 LinkedIn: linkedin.com/in/YOUR-HANDLE
-- 🗓️ Calendly: calendly.com/YOUR-HANDLE *(optional)*
+- ✉️ Email: `surya.official49@gmail.com` *(replace with your contact; obfuscated format recommended)*
+- 🔗 LinkedIn: [linkedin.com/in/Surya-Sahu](https://www.linkedin.com/in/surya-sahu/)
+
 
 ---
 
